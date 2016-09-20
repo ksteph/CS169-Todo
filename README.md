@@ -64,7 +64,7 @@ This checks for a checkbox (defined by any block of text containing "unchecked")
 If we try to run the tests now, they'll fail! Actually this is what we want as per TDD. For the rest of this app, we'll try to get our newly written feature specs to succeed.
 
 ## Writing the Features
-To complete these features, all we need to change is our view in `views/todos/index.html.erb`, since our feature is only a display update. We want to add a new column in the index page.
+To complete these features, all we need to change is our view in `app/views/todos/index.html.erb`, since our feature is only a display update. We want to add a new column in the index page.
 
 First, our column header. Inside the `<tr>` element in the `<thead>`, add a cell:
 ```html
