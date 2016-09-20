@@ -11,5 +11,9 @@ Background:
     | Cure cancer.             | false     |
 
 Scenario: Display completed tasks with a check.
+  Given I am on the home page
+  Then I should see a checkmark next to "Write section materials."
 
 Scenario: Display incomplete tasks with no check.
+  Given I am on the home page
+  Then I should see a checkbox next to "Cure cancer."
