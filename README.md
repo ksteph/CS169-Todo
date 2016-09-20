@@ -5,9 +5,15 @@ Already provided is a basic scaffold for todo items: models and a corresponding 
 Setup is simple. Simply run:
 ```bash
 rake db:migrate
+rake db:seed
 ```
 
-The first step is to add a "completed" field to the todos. For now, we can keep them static: they will be set and static upon creation. We want to be able to display a check or empty box for corresponding tasks depending on completion.
+To run the app, type in your console:
+```bash
+rails s
+```
+
+While the server is running, trying poking around the app. Notice there is no way to track task statuses: whether or not a task is complete. This is the first feature we will implement. For now, we can keep them static: they will be set and static upon creation. We want to be able to display a check or empty box for corresponding tasks depending on completion.
 
 ## Fixing Existing Tests
 First, let's fill out the test that we want to drive development. To run the test we have, try this:
