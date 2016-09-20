@@ -13,7 +13,7 @@ To run the app, type in your console:
 rails s
 ```
 
-While the server is running, trying poking around the app. Notice there is no way to track task statuses: whether or not a task is complete. This if the first feature we will implement. For now, we can keep them static: they will be set and static upon creation. We want to be able to display a check or empty box for corresponding tasks depending on completion.
+While the server is running, trying poking around the app. Notice there is no way to track task statuses: whether or not a task is complete. This is the first feature we will implement. For now, we can keep them static: they will be set and static upon creation. We want to be able to display a check or empty box for corresponding tasks depending on completion.
 
 ## Fixing Existing Tests
 First, let's fill out the test that we want to drive development. To run the test we have, try this:
