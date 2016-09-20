@@ -7,6 +7,11 @@ Setup is simple. Simply run:
 rake db:migrate
 ```
 
+To run the app, type in your console:
+```bash
+rails s
+```
+
 The first step is to add a "completed" field to the todos. For now, we can keep them static: they will be set and static upon creation. We want to be able to display a check or empty box for corresponding tasks depending on completion.
 
 ## Fixing Existing Tests
